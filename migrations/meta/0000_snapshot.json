@@ -1,5 +1,5 @@
 {
-  "id": "6489e35d-25ee-47ec-be3c-aed334ee4a0f",
+  "id": "dd9583c1-d9a8-42ea-917b-b78e28fc7ec8",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -108,12 +108,6 @@
           "primaryKey": false,
           "notNull": true
         },
-        "serving": {
-          "name": "serving",
-          "type": "varchar(256)",
-          "primaryKey": false,
-          "notNull": true
-        },
         "calories": {
           "name": "calories",
           "type": "integer",
@@ -126,110 +120,110 @@
           "primaryKey": false,
           "notNull": true
         },
-        "external_id": {
-          "name": "external_id",
-          "type": "varchar(256)",
-          "primaryKey": false,
-          "notNull": true
-        },
-        "searchTerm": {
-          "name": "searchTerm",
-          "type": "varchar(256)",
-          "primaryKey": false,
-          "notNull": true
-        },
         "sodium": {
           "name": "sodium",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "total_fat": {
           "name": "total_fat",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "potassium": {
           "name": "potassium",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "saturated": {
           "name": "saturated",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "total_carbs": {
           "name": "total_carbs",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "polyunsaturated": {
           "name": "polyunsaturated",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "dietary_fiber": {
           "name": "dietary_fiber",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "monounsaturated": {
           "name": "monounsaturated",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "sugars": {
           "name": "sugars",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "trans": {
           "name": "trans",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "protein": {
           "name": "protein",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "cholesterol": {
           "name": "cholesterol",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "vitamin_a": {
           "name": "vitamin_a",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "calcium": {
           "name": "calcium",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "vitamin_c": {
           "name": "vitamin_c",
-          "type": "varchar(256)",
+          "type": "integer",
           "primaryKey": false,
           "notNull": true
         },
         "iron": {
           "name": "iron",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "restricciones": {
+          "name": "restricciones",
+          "type": "varchar(256)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "tipo": {
+          "name": "tipo",
           "type": "varchar(256)",
           "primaryKey": false,
           "notNull": true
