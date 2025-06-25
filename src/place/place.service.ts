@@ -7,7 +7,7 @@ import { GetDistance } from '@/util/utils';
 @Injectable()
 export class PlaceService {
     async getPlaces(origin: string) {
-
+        origin = "Av. Paseo Colón 850, Cdad. Autónoma de Buenos Aires";
         if(origin === undefined || origin === null || origin === '') {
             origin = "Av. Paseo Colón 850, Cdad. Autónoma de Buenos Aires"
             //ToDo: Moverlo a un archivo de configuracion para que sea dinamico
